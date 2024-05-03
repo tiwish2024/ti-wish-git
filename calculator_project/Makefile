@@ -1,6 +1,6 @@
-INCLUDE_DIR = ../inc
-OUTPUT_DIR = ../output
-SRC_DIR = ../src
+INCLUDE_DIR = inc
+OUTPUT_DIR = output
+SRC_DIR = src
 CC = gcc 
 
 calculatorProjectTest : $(OUTPUT_DIR)/add.o $(OUTPUT_DIR)/sub.o $(OUTPUT_DIR)/mul.o $(OUTPUT_DIR)/div.o $(OUTPUT_DIR)/menu.o $(OUTPUT_DIR)/main.o
