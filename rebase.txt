@@ -1,1 +1,10 @@
+<<<<<<< HEAD
+=======
+This is to rebase the branch
+<<<<<<< HEAD
+>>>>>>> c860c40 (Create rebase.txt)
 This is to introduce conflicts
+=======
+>>>>>>> 7a341f8 (Create rebase.txt)
+This is to introduce conflicts
+This is to rebase the branch
