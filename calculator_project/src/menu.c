@@ -2,9 +2,9 @@
 
 void printCalculatorMenu()
 {
-    printf("1.Addition Operation");
-    printf("2.Subtraction operation");
-    printf("3.Multiplication Operation");
-    printf("4.Division operation");
+    printf("1.Addition Operation \n");
+    printf("2.Subtraction operation \n");
+    printf("3.Multiplication Operation \n");
+    printf("4.Division operation\n");
     
 }
