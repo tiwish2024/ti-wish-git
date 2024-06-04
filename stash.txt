@@ -1,0 +1,3 @@
+difference between git commit and git stash
+git commit: Records changes to the repository. It saves a snapshot of the project’s changes.
+git stash: Temporarily shelves (or stashes) changes you've made to your working directory, allowing you to switch branches or perform other tasks without committing.
