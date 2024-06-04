@@ -1,4 +1,9 @@
 a+b=c
+<<<<<<< HEAD
 b+c=a
 13
 This is to rebase the branch
+=======
+This is to rebase the branch
+
+>>>>>>> 79d8be3 (commiting rebase.txt)
