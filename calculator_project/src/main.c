@@ -13,8 +13,8 @@ int main()
     {
         printCalculatorMenu();
         int op;
-        printf("Enter number coreesponding to required operation: ");
-        scanf("%d\n", op);
+        printf("Enter number corresponding to required operation: ");
+        scanf("%d\n", &op);
         if (op == 0)
         {
             printf("Terminating calculator project");
