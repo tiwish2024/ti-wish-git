@@ -1,9 +1,2 @@
-a+b=c
- HEAD
- HEAD
-b+c=a
-13
-This is to rebase the branch
-b+c=aba48a0b (commiting rebase.txt)
 This is to rebase the branch
 79d8be3 (commiting rebase.txt)
