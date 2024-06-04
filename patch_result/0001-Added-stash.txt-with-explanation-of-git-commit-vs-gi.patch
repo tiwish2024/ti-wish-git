@@ -1,0 +1,30 @@
+From 2b3821dc8b40c3abf7ae2756f3175921ca25a515 Mon Sep 17 00:00:00 2001
+From: AngelaSinghal <135125583+AngelaSinghal@users.noreply.github.com>
+Date: Tue, 4 Jun 2024 13:56:15 +0530
+Subject: [PATCH] Added stash.txt with explanation of git commit vs git stash
+
+---
+ stash.txt | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/stash.txt b/stash.txt
+index 505165f..2b4113b 100644
+--- a/stash.txt
++++ b/stash.txt
+@@ -1,9 +1,9 @@
+ 
+ git commit:
+-    Saves your changes permanently in the Git repository history.
+-    Makes your changes visible to others who collaborate on the project.
++    Saves our changes permanently in the Git repository history.
++    Makes our changes visible to others who collaborate on the project.
+     Cannot be easily undone without using commands like git revert.
+ git stash:
+-    Temporarily saves your uncommitted changes in a separate area (stash).
++    Temporarily saves our uncommitted changes in a separate area (stash).
+     Doesn't affect the current working directory or Git history.
+-    Allows you to switch between different tasks or revert to a clean working directory without losing your work.
++    Allows us to switch between different tasks or revert to a clean working directory without losing our work.
+-- 
+2.39.0.windows.2
+

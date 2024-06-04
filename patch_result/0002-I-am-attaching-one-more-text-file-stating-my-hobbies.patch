@@ -1,0 +1,20 @@
+From 2c963c88c81f8b4d82f937e2a82c0bc2fae8078a Mon Sep 17 00:00:00 2001
+From: AngelaSinghal <135125583+AngelaSinghal@users.noreply.github.com>
+Date: Mon, 3 Jun 2024 22:40:42 +0530
+Subject: [PATCH 2/5] I am attaching one more text file stating  my hobbies
+
+---
+ hobbies.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hobbies.txt
+
+diff --git a/hobbies.txt b/hobbies.txt
+new file mode 100644
+index 0000000..83ba5f3
+--- /dev/null
++++ b/hobbies.txt
+@@ -0,0 +1 @@
++My hobby is to dance and sing.
+-- 
+2.39.0.windows.2
+
