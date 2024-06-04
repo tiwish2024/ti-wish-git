@@ -1,0 +1,12 @@
+git stash and git commit are both commands in Git that serve different purposes:
+1. git stash:
+- The git stash command is used to temporarily store changes that you don't want to commit immediately.
+  It allows you to save your work in progress without committing it to the repository.
+- When you run git stash, Git will store your local modifications in a "stash" stack. 
+  This stack allows you to save multiple stashes and apply them later.
+
+2. git commit:
+- The git commit command is used to save the changes to the local repository. When you run git commit, 
+  you are creating a snapshot of your changes that becomes a part of the project's history.
+- Commits are permanent and are typically used to save a stable version of 
+  your work or to mark a specific point in the project's development.
