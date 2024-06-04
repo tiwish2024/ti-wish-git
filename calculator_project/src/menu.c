@@ -2,5 +2,5 @@
 
 void printCalculatorMenu()
 {
-    
+    printf("Choose 4 for multiplication\n");
 }
