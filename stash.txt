@@ -1,0 +1,11 @@
+Differences between git commit and git stash:
+
+1. git commit:
+   - Records changes to the repository.
+   - Creates a new commit in the project history.
+   - Changes are permanent and can be pushed to a remote repository.
+
+2. git stash:
+   - Temporarily saves changes that are not ready to be committed.
+   - Moves the changes out of the working directory and into a stash stack.
+   - Changes can be reapplied or discarded later.
