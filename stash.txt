@@ -1,0 +1,8 @@
+git commit:
+Creates a permanent snapshot of your current working directory changes.
+Adds the snapshot (commit) to the Git history of our branch.
+Ideal for saving changes that are ready to integrate into your project's main branch.
+git stash:
+Temporarily shelves our uncommitted changes.
+Allows us to switch branches or work on something else without losing our progress.
+Useful when we need to switch contexts but don't want to commit incomplete work.
