@@ -2,5 +2,5 @@
 
 void printCalculatorMenu()
 {
-    printf("2. Addition\n");
+    printf("2. Multipication\n");
 }
