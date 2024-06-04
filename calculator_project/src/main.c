@@ -13,7 +13,7 @@ int main()
     int32_t num1,num2,choice;
     
     printf("\n\rWelcome to the Calculator Project\n\r");
-    while(){
+    while(1){
         printf("Enter num1 and num2 : ");
         scanf("%d %d",&num1,&num2);
         printCalculatorMenu();
