@@ -12,11 +12,12 @@ int main()
     while (1)
     {
         printCalculatorMenu();
-        int op;
-        int32_t num1, num2;
+        int op; // operation ID
+        int32_t num1, num2; // Input numbers
         printf("Enter number corresponding to required operation: ");
         scanf("%d", &op);
 
+        // If operation ID is not in calculator menu, the program will terminate
         if (!(op == 1 || op == 2 || op == 3 || op == 4))
         {
             printf("Incorrect operation ID\n");
