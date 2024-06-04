@@ -1,0 +1,28 @@
+From 46791867eb89c25c7b0b085ea63ee6cf614a75fa Mon Sep 17 00:00:00 2001
+From: Kanan <kananagarwal2005@gmail.com>
+Date: Tue, 4 Jun 2024 14:11:10 +0530
+Subject: [PATCH] Added stash.txt with differences explanation
+
+---
+ stash.txt | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..821f325
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1,8 @@
++git commit:
++Creates a permanent snapshot of your current working directory changes.
++Adds the snapshot (commit) to the Git history of our branch.
++Ideal for saving changes that are ready to integrate into your project's main branch.
++git stash:
++Temporarily shelves our uncommitted changes.
++Allows us to switch branches or work on something else without losing our progress.
++Useful when we need to switch contexts but don't want to commit incomplete work.
+\ No newline at end of file
+-- 
+2.45.1.windows.1
+
