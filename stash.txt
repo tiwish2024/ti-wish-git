@@ -1,0 +1,9 @@
+
+git commit:
+    Saves your changes permanently in the Git repository history.
+    Makes your changes visible to others who collaborate on the project.
+    Cannot be easily undone without using commands like git revert.
+git stash:
+    Temporarily saves your uncommitted changes in a separate area (stash).
+    Doesn't affect the current working directory or Git history.
+    Allows you to switch between different tasks or revert to a clean working directory without losing your work.
