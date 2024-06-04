@@ -1,0 +1,2 @@
+Cherry-pick is a git command used to apply a spefic  commit (from any branch) to another branch
+It is used in case soemone wants to include only specific changes of a branch
