@@ -1,3 +1,0 @@
-This is to rebase the branch
-
-This is to rebase the branch // making changes through branch
