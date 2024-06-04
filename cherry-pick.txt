@@ -1,0 +1,4 @@
+Git cherry-pick is used to choose one or more existing commit from one branch and apply it to another branch.
+This is in contrast with other ways such as merge and rebase which normally apply all commits that are not there
+in the current branch. Cherry-pick is mainly used if you don’t want to merge the whole branch and you want some
+of the commits. 
