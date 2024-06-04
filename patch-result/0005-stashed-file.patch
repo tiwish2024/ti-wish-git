@@ -1,0 +1,20 @@
+From f44390c4b3da5af9e3f6805dd9cdaf1be18f7a42 Mon Sep 17 00:00:00 2001
+From: Mahita Boyina <mahita2104@gmail.com>
+Date: Tue, 4 Jun 2024 12:34:34 +0530
+Subject: [PATCH 5/6] stashed file
+
+---
+ stash.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..cec8a8b
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1 @@
++This is a stash file
+-- 
+2.45.1
+

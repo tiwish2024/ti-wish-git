@@ -1,0 +1,19 @@
+From e05b51f74d8efc36bc574d8605a43b98fe19713b Mon Sep 17 00:00:00 2001
+From: Mahita Boyina <mahita2104@gmail.com>
+Date: Tue, 4 Jun 2024 12:25:48 +0530
+Subject: [PATCH 3/6] resolving conflict
+
+---
+ rebase.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rebase.txt b/rebase.txt
+index 8d1fa3d..db806d0 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1 +1,2 @@
+ This is to introduce conflicts
++This is to rebase the branch
+-- 
+2.45.1
+

@@ -1,0 +1,26 @@
+From 1956fa5ca3c92f52d31d440f8f876c75bf86fc00 Mon Sep 17 00:00:00 2001
+From: Mahita Boyina <mahita2104@gmail.com>
+Date: Mon, 3 Jun 2024 20:22:48 +0530
+Subject: [PATCH 4/6] learning git and github now tried --amend command
+
+---
+ wish-2024-ti-temp.txt | 0
+ wish-2024-ti.txt      | 1 +
+ 2 files changed, 1 insertion(+)
+ create mode 100644 wish-2024-ti-temp.txt
+ create mode 100644 wish-2024-ti.txt
+
+diff --git a/wish-2024-ti-temp.txt b/wish-2024-ti-temp.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/wish-2024-ti.txt b/wish-2024-ti.txt
+new file mode 100644
+index 0000000..af557d5
+--- /dev/null
++++ b/wish-2024-ti.txt
+@@ -0,0 +1 @@
++mahita wish'24
+\ No newline at end of file
+-- 
+2.45.1
+
