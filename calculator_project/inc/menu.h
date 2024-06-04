@@ -4,6 +4,9 @@
 #include <stdio.h>
 #include <stdint.h>
 
-void printCalculatorMenu();
+void printCalculatorMenu(){
+    printf("1.Addition\n");
+
+}
 
 #endif /* _MENU_H_ */
