@@ -9,5 +9,7 @@
 int main()
 {
     printf("\n\rWelcome to the Calculator Project\n\r");
+    printf("enter a choice");
+    
     return 0;
 }
