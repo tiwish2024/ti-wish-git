@@ -1,0 +1,32 @@
+From 40c8cd6aca4ce6117ff8c02d4e8787c6e7c41288 Mon Sep 17 00:00:00 2001
+From: Shruti Kayal <shrutikayal15@gmail.com>
+Date: Tue, 4 Jun 2024 14:03:12 +0530
+Subject: [PATCH 5/6] stash file add
+
+---
+ stash.txt | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..efa717c
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1,12 @@
++git stash and git commit are both commands in Git that serve different purposes:
++1. git stash:
++- The git stash command is used to temporarily store changes that you don't want to commit immediately.
++  It allows you to save your work in progress without committing it to the repository.
++- When you run git stash, Git will store your local modifications in a "stash" stack. 
++  This stack allows you to save multiple stashes and apply them later.
++
++2. git commit:
++- The git commit command is used to save the changes to the local repository. When you run git commit, 
++  you are creating a snapshot of your changes that becomes a part of the project's history.
++- Commits are permanent and are typically used to save a stable version of 
++  your work or to mark a specific point in the project's development.
+\ No newline at end of file
+-- 
+2.45.1.windows.1
+

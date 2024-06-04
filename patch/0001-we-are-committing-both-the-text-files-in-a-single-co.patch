@@ -1,0 +1,21 @@
+From 8c9f915cceb4d7880a5ef772c3a457335a82c2df Mon Sep 17 00:00:00 2001
+From: Shruti Kayal <shrutikayal15@gmail.com>
+Date: Mon, 3 Jun 2024 12:29:15 +0530
+Subject: [PATCH 1/6] we are committing both the text files in a single commit
+
+---
+ wish-2024-ti-temp.txt | 0
+ wish-2024-ti.txt      | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 wish-2024-ti-temp.txt
+ create mode 100644 wish-2024-ti.txt
+
+diff --git a/wish-2024-ti-temp.txt b/wish-2024-ti-temp.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/wish-2024-ti.txt b/wish-2024-ti.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.45.1.windows.1
+

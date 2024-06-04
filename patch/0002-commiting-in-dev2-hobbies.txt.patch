@@ -1,0 +1,21 @@
+From db120cb394ab32057bca471dd1c18bccb69907f9 Mon Sep 17 00:00:00 2001
+From: Shruti Kayal <shrutikayal15@gmail.com>
+Date: Mon, 3 Jun 2024 14:02:09 +0530
+Subject: [PATCH 2/6] commiting in dev2 hobbies.txt
+
+---
+ hobbies.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hobbies.txt
+
+diff --git a/hobbies.txt b/hobbies.txt
+new file mode 100644
+index 0000000..97361d0
+--- /dev/null
++++ b/hobbies.txt
+@@ -0,0 +1 @@
++my hobby is reading and travelling.
+\ No newline at end of file
+-- 
+2.45.1.windows.1
+

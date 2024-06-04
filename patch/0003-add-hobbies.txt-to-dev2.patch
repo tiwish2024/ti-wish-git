@@ -1,0 +1,20 @@
+From 835df0f824f07deb0273e341f5f2c0bf78b848d5 Mon Sep 17 00:00:00 2001
+From: Shruti Kayal <shrutikayal15@gmail.com>
+Date: Mon, 3 Jun 2024 14:48:26 +0530
+Subject: [PATCH 3/6] add hobbies.txt to dev2
+
+---
+ hobbies.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hobbies.txt b/hobbies.txt
+index 97361d0..1750af6 100644
+--- a/hobbies.txt
++++ b/hobbies.txt
+@@ -1 +1 @@
+-my hobby is reading and travelling.
+\ No newline at end of file
++dancing travelling
+-- 
+2.45.1.windows.1
+
