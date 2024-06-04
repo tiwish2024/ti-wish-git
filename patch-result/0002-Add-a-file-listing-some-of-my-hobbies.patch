@@ -1,0 +1,24 @@
+From 3d4b716d6d76725618c4b3a6358af1b3711dbd94 Mon Sep 17 00:00:00 2001
+From: Anisha Banerjee <anishabanerjea@gmail.com>
+Date: Mon, 3 Jun 2024 14:32:21 +0530
+Subject: [PATCH 2/4] Add a file listing some of my hobbies
+
+---
+ hobbies.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 hobbies.txt
+
+diff --git a/hobbies.txt b/hobbies.txt
+new file mode 100644
+index 0000000..e5288b6
+--- /dev/null
++++ b/hobbies.txt
+@@ -0,0 +1,5 @@
++Some of my hobbies are:
++1. Bharatnatyam Dance
++2. Listening to music
++3. Playing Badminton
++4. Work Out like Aerobics
+-- 
+2.45.1.windows.1
+

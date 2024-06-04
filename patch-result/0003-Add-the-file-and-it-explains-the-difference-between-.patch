@@ -1,0 +1,23 @@
+From 891bd228cb12a6720472f4ba418eb1056c53ec3a Mon Sep 17 00:00:00 2001
+From: Anisha Banerjee <anishabanerjea@gmail.com>
+Date: Tue, 4 Jun 2024 14:39:03 +0530
+Subject: [PATCH 3/4] Add the file and it explains the difference between git
+ commit and git stash
+
+---
+ stash.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..812ca72
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1,3 @@
++1. A commit is a part of the public git history while a stash is stored locally.
++2. A commit creates a new save point on a branch while a stash reverts to a previous save point.
++3. A new commit leaves files in the working tree unchanged while a stash resets files in the working tree to the previous commit point.
+-- 
+2.45.1.windows.1
+

@@ -1,0 +1,27 @@
+From 2fa8ce432c6ec05c74489148511849d26342a1ba Mon Sep 17 00:00:00 2001
+From: Anisha Banerjee <anishabanerjea@gmail.com>
+Date: Tue, 4 Jun 2024 16:20:16 +0530
+Subject: [PATCH 4/4] Add a file which has a short description about
+ cherry-pick
+
+---
+ cherry-pick.txt | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..790ce53
+--- /dev/null
++++ b/cherry-pick.txt
+@@ -0,0 +1,7 @@
++Git cherry-pick is used to choose one or more existing commit from one branch and apply it to another branch. 
++It is very useful when we do not want to merge the whole branch and only want some of the commits.
++
++Some of its uses are:
++1. Undoing changes and lost commits.
++2. To avoid useless conficts.
++  
+-- 
+2.45.1.windows.1
+
