@@ -1,0 +1,31 @@
+From a5c646e21b49bea34e63356f1b1bd4fa6cc4adb3 Mon Sep 17 00:00:00 2001
+From: sneha-gupta <sneha.gupta.eee22@itbhu.ac.in>
+Date: Mon, 3 Jun 2024 12:26:39 +0530
+Subject: [PATCH 2/2] try amend command on commited files.
+
+---
+ wish-2024-ti-temp.txt | 1 +
+ wish-2024-ti.txt      | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 wish-2024-ti-temp.txt
+ create mode 100644 wish-2024-ti.txt
+
+diff --git a/wish-2024-ti-temp.txt b/wish-2024-ti-temp.txt
+new file mode 100644
+index 0000000..b6fc4c6
+--- /dev/null
++++ b/wish-2024-ti-temp.txt
+@@ -0,0 +1 @@
++hello
+\ No newline at end of file
+diff --git a/wish-2024-ti.txt b/wish-2024-ti.txt
+new file mode 100644
+index 0000000..b6fc4c6
+--- /dev/null
++++ b/wish-2024-ti.txt
+@@ -0,0 +1 @@
++hello
+\ No newline at end of file
+-- 
+2.43.0.windows.1
+
