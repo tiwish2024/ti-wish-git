@@ -1,0 +1,16 @@
+From 57fe7786815059956bd804672704536f14769a96 Mon Sep 17 00:00:00 2001
+From: rohini <sirikirohini0@gmail.com>
+Date: Tue, 4 Jun 2024 19:57:24 +0530
+Subject: [PATCH 10/10] Added cherry-pick.txt explaining cherry-picking
+
+---
+ cherry-pick.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.45.1.windows.1
+

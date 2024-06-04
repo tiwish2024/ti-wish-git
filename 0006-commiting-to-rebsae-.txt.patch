@@ -1,0 +1,24 @@
+From 0b0b56705c3668f6370e98a2665f8ba55ae121bc Mon Sep 17 00:00:00 2001
+From: rohini <sirikirohini0@gmail.com>
+Date: Tue, 4 Jun 2024 19:32:33 +0530
+Subject: [PATCH 06/10]  commiting to rebsae .txt
+
+---
+ rebase.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/rebase.txt b/rebase.txt
+index 3efc395..f9a885f 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1,4 +1,4 @@
+ a+b=c
+ b+c=a
+-This is to rebase the branch
+-
++13
++This is to rebase the branch
+\ No newline at end of file
+-- 
+2.45.1.windows.1
+

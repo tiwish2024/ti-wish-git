@@ -1,0 +1,23 @@
+From 96d82aeec0fbe2a807ec2693517b0e2636aef46a Mon Sep 17 00:00:00 2001
+From: rohini <sirikirohini0@gmail.com>
+Date: Tue, 4 Jun 2024 19:33:05 +0530
+Subject: [PATCH 07/10] commiting to git
+
+---
+ git | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/git b/git
+index 0b2813a..dfea47d 100644
+--- a/git
++++ b/git
+@@ -1,2 +1,3 @@
+ rohini
+-wish24117
+\ No newline at end of file
++wish24117
++sb
+\ No newline at end of file
+-- 
+2.45.1.windows.1
+

@@ -1,0 +1,16 @@
+From b24be1d4cf6f8f8725035aeba2f56d4a80050018 Mon Sep 17 00:00:00 2001
+From: rohini <sirikirohini0@gmail.com>
+Date: Tue, 4 Jun 2024 19:40:09 +0530
+Subject: [PATCH 08/10] commiting stash file
+
+---
+ stash.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.45.1.windows.1
+

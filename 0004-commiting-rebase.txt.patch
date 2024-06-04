@@ -1,0 +1,21 @@
+From ba48a0bf75ce1c9267e8b498de005bde9fae7fe0 Mon Sep 17 00:00:00 2001
+From: rohini <sirikirohini0@gmail.com>
+Date: Tue, 4 Jun 2024 19:13:56 +0530
+Subject: [PATCH 04/10] commiting rebase.txt
+
+---
+ rebase.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rebase.txt b/rebase.txt
+index 5001a14..3efc395 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1,3 +1,4 @@
+ a+b=c
++b+c=a
+ This is to rebase the branch
+ 
+-- 
+2.45.1.windows.1
+

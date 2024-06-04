@@ -1,0 +1,18 @@
+From cc8b680e63b264f35f463041f3eb651da6d932bd Mon Sep 17 00:00:00 2001
+From: rohini <sirikirohini0@gmail.com>
+Date: Tue, 4 Jun 2024 19:51:17 +0530
+Subject: [PATCH 09/10] commiting stash file
+
+---
+ stash.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/stash.txt b/stash.txt
+index e69de29..3a36ba1 100644
+--- a/stash.txt
++++ b/stash.txt
+@@ -0,0 +1 @@
++Creates a permanent snapshot of the current state of your codebase and Temporarily shelves changes you've made to your working directory and index.
+-- 
+2.45.1.windows.1
+
