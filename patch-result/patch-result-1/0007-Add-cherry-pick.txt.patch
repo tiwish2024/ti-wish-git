@@ -1,0 +1,21 @@
+From 3248c09c39a34f7e55ab08b69f5ecb66e37e69f0 Mon Sep 17 00:00:00 2001
+From: saumyabalina <saumya.balina@students.iiit.ac.in>
+Date: Tue, 4 Jun 2024 12:21:29 +0530
+Subject: [PATCH 7/7] Add cherry-pick.txt
+
+---
+ cherry-pick.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..5eac999
+--- /dev/null
++++ b/cherry-pick.txt
+@@ -0,0 +1 @@
++git cherry-pick allows us to choose one or more existing commit from one branch and apply it to another branch.
+\ No newline at end of file
+-- 
+2.41.0.windows.3
+

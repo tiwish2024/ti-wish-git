@@ -1,0 +1,23 @@
+From 97b97ce70c2b8d0eba4f35a7b7f1a2c75f27bde0 Mon Sep 17 00:00:00 2001
+From: Neha Malcom Francis <n-francis@ti.com>
+Date: Mon, 3 Jun 2024 08:09:55 +0530
+Subject: [PATCH 1/7] Add rebase.txt
+
+Add rebase.txt to understand Git rebasing in day 2 of the Git sessions.
+
+Signed-off-by: Neha Malcom Francis <n-francis@ti.com>
+---
+ rebase.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 rebase.txt
+
+diff --git a/rebase.txt b/rebase.txt
+new file mode 100644
+index 0000000..8d1fa3d
+--- /dev/null
++++ b/rebase.txt
+@@ -0,0 +1 @@
++This is to introduce conflicts
+-- 
+2.41.0.windows.3
+

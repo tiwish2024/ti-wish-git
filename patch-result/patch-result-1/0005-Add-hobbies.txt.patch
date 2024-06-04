@@ -1,0 +1,22 @@
+From 5d267b2f9ff0c3b46baecb2194fe880e70f0b148 Mon Sep 17 00:00:00 2001
+From: saumyabalina <saumya.balina@students.iiit.ac.in>
+Date: Tue, 4 Jun 2024 11:56:06 +0530
+Subject: [PATCH 5/7] Add hobbies.txt
+
+---
+ hobbies.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hobbies.txt
+
+diff --git a/hobbies.txt b/hobbies.txt
+new file mode 100644
+index 0000000..95ae20a
+--- /dev/null
++++ b/hobbies.txt
+@@ -0,0 +1,2 @@
++Playing basketball
++Reading books
+\ No newline at end of file
+-- 
+2.41.0.windows.3
+

@@ -1,0 +1,23 @@
+From 7143766572fe64dcc8e387c5b33e8d77fd53797e Mon Sep 17 00:00:00 2001
+From: saumyabalina <saumya.balina@students.iiit.ac.in>
+Date: Tue, 4 Jun 2024 12:15:34 +0530
+Subject: [PATCH] Add stash.txt with differences between git commit and git
+ stash
+
+---
+ stash.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..c88631c
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1,2 @@
++git commit saves changes to the local repository.
++git stash temporarily saves changes that are not ready to be commit.
+\ No newline at end of file
+-- 
+2.41.0.windows.3
+

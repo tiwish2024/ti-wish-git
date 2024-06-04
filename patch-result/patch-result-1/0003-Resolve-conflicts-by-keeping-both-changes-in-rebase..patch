@@ -1,0 +1,19 @@
+From 6083ee1ea62f8a9f64227a6b5d8936f696f953cc Mon Sep 17 00:00:00 2001
+From: tiwish2024 <165905889+tiwish2024@users.noreply.github.com>
+Date: Mon, 3 Jun 2024 22:36:18 +0530
+Subject: [PATCH 3/7] Resolve conflicts by keeping both changes in  rebase.txt
+
+---
+ rebase.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rebase.txt b/rebase.txt
+index 8d1fa3d..db806d0 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1 +1,2 @@
+ This is to introduce conflicts
++This is to rebase the branch
+-- 
+2.41.0.windows.3
+
