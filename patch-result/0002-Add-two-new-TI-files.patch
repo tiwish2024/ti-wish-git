@@ -1,0 +1,31 @@
+From 7e2b3bf77a4f5c18d6ea6a0589bf05ba81e52ea2 Mon Sep 17 00:00:00 2001
+From: Mayura <saimayurark@gmail.com>
+Date: Mon, 3 Jun 2024 12:33:15 +0530
+Subject: [PATCH 2/6] Add two new TI files
+
+---
+ wish-2024-ti-temp.txt | 2 ++
+ wish-2024-ti.txt      | 1 +
+ 2 files changed, 3 insertions(+)
+ create mode 100644 wish-2024-ti-temp.txt
+ create mode 100644 wish-2024-ti.txt
+
+diff --git a/wish-2024-ti-temp.txt b/wish-2024-ti-temp.txt
+new file mode 100644
+index 0000000..5e2721d
+--- /dev/null
++++ b/wish-2024-ti-temp.txt
+@@ -0,0 +1,2 @@
++Hey
++I'm Mayura
+\ No newline at end of file
+diff --git a/wish-2024-ti.txt b/wish-2024-ti.txt
+new file mode 100644
+index 0000000..11ab7d5
+--- /dev/null
++++ b/wish-2024-ti.txt
+@@ -0,0 +1 @@
++hello.I'm Mayura
+-- 
+2.34.1
+

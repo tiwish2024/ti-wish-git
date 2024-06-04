@@ -1,0 +1,21 @@
+From 2b44c97d7b4c6bf7922f1bbbc0438152668e0f43 Mon Sep 17 00:00:00 2001
+From: Mayura <saimayurark@gmail.com>
+Date: Tue, 4 Jun 2024 14:15:08 +0530
+Subject: [PATCH 6/6] File for cherry pick
+
+---
+ cherry-pick.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..6069963
+--- /dev/null
++++ b/cherry-pick.txt
+@@ -0,0 +1,2 @@
++Cherry-pick is a git command used to apply a spefic  commit (from any branch) to another branch
++It is used in case soemone wants to include only specific changes of a branch
+-- 
+2.34.1
+

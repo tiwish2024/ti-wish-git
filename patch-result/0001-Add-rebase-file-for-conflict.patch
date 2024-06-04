@@ -1,0 +1,21 @@
+From d14a701ed094b8b829776131c0892067463eaff1 Mon Sep 17 00:00:00 2001
+From: Mayura <saimayurark@gmail.com>
+Date: Tue, 4 Jun 2024 12:48:42 +0530
+Subject: [PATCH 1/6] Add rebase file for conflict
+
+---
+ rebase2.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 rebase2.txt
+
+diff --git a/rebase2.txt b/rebase2.txt
+new file mode 100644
+index 0000000..9a80a22
+--- /dev/null
++++ b/rebase2.txt
+@@ -0,0 +1,2 @@
++hello
++
+-- 
+2.34.1
+

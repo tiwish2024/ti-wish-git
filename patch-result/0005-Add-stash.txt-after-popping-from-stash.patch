@@ -1,0 +1,20 @@
+From c359be11ee941d40bee80ef382a02503ae79e306 Mon Sep 17 00:00:00 2001
+From: Mayura <saimayurark@gmail.com>
+Date: Tue, 4 Jun 2024 13:39:03 +0530
+Subject: [PATCH 5/6] Add stash.txt after popping from stash
+
+---
+ stash.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..27040f1
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1 @@
++hello.I'm Mayura
+-- 
+2.34.1
+

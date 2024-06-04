@@ -1,0 +1,125 @@
+From d507fa6fdd4ca0e0eac48c9334a70dfc83f75e33 Mon Sep 17 00:00:00 2001
+From: Archit Dev <a-dev@ti.com>
+Date: Thu, 2 May 2024 22:08:03 +0530
+Subject: [PATCH] Calculator Project : Add makefile based build for the project
+
+- Add makefile based build for the project
+- Add the required include and source files
+- Verified that make and clean are working
+
+Signed-off-by: Archit Dev
+---
+ calculator_project/inc/add.h          |  0
+ calculator_project/inc/div.h          |  0
+ calculator_project/inc/menu.h         |  0
+ calculator_project/inc/mul.h          |  0
+ calculator_project/inc/sub.h          |  0
+ calculator_project/makefiles/Makefile | 28 +++++++++++++++++++++++++++
+ calculator_project/output/.gitkeep    |  0
+ calculator_project/src/add.c          |  0
+ calculator_project/src/div.c          |  0
+ calculator_project/src/main.c         |  8 ++++++++
+ calculator_project/src/menu.c         |  0
+ calculator_project/src/mul.c          |  0
+ calculator_project/src/sub.c          |  0
+ 13 files changed, 36 insertions(+)
+ create mode 100644 calculator_project/inc/add.h
+ create mode 100644 calculator_project/inc/div.h
+ create mode 100644 calculator_project/inc/menu.h
+ create mode 100644 calculator_project/inc/mul.h
+ create mode 100644 calculator_project/inc/sub.h
+ create mode 100644 calculator_project/makefiles/Makefile
+ create mode 100644 calculator_project/output/.gitkeep
+ create mode 100644 calculator_project/src/add.c
+ create mode 100644 calculator_project/src/div.c
+ create mode 100644 calculator_project/src/main.c
+ create mode 100644 calculator_project/src/menu.c
+ create mode 100644 calculator_project/src/mul.c
+ create mode 100644 calculator_project/src/sub.c
+
+diff --git a/calculator_project/inc/add.h b/calculator_project/inc/add.h
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/inc/div.h b/calculator_project/inc/div.h
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/inc/menu.h b/calculator_project/inc/menu.h
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/inc/mul.h b/calculator_project/inc/mul.h
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/inc/sub.h b/calculator_project/inc/sub.h
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/makefiles/Makefile b/calculator_project/makefiles/Makefile
+new file mode 100644
+index 0000000..c81a695
+--- /dev/null
++++ b/calculator_project/makefiles/Makefile
+@@ -0,0 +1,28 @@
++INCLUDE_DIR = ../inc
++OUTPUT_DIR = ../output
++SRC_DIR = ../src
++CC = gcc 
++
++calculatorProjectTest : $(OUTPUT_DIR)/add.o $(OUTPUT_DIR)/sub.o $(OUTPUT_DIR)/mul.o $(OUTPUT_DIR)/div.o $(OUTPUT_DIR)/menu.o $(OUTPUT_DIR)/main.o
++	$(CC) -o $(OUTPUT_DIR)/calculatorProjectTest $(OUTPUT_DIR)/add.o $(OUTPUT_DIR)/sub.o $(OUTPUT_DIR)/mul.o $(OUTPUT_DIR)/div.o $(OUTPUT_DIR)/menu.o $(OUTPUT_DIR)/main.o
++
++$(OUTPUT_DIR)/add.o : $(SRC_DIR)/add.c $(INCLUDE_DIR)/add.h
++	$(CC) -I $(INCLUDE_DIR) -c $(SRC_DIR)/add.c -o $(OUTPUT_DIR)/add.o
++
++$(OUTPUT_DIR)/sub.o : $(SRC_DIR)/sub.c $(INCLUDE_DIR)/sub.h
++	$(CC) -I $(INCLUDE_DIR) -c $(SRC_DIR)/sub.c -o $(OUTPUT_DIR)/sub.o
++
++$(OUTPUT_DIR)/mul.o : $(SRC_DIR)/mul.c $(INCLUDE_DIR)/mul.h
++	$(CC) -I $(INCLUDE_DIR) -c $(SRC_DIR)/mul.c -o $(OUTPUT_DIR)/mul.o
++
++$(OUTPUT_DIR)/div.o : $(SRC_DIR)/div.c $(INCLUDE_DIR)/div.h
++	$(CC) -I $(INCLUDE_DIR) -c $(SRC_DIR)/div.c -o $(OUTPUT_DIR)/div.o
++
++$(OUTPUT_DIR)/menu.o : $(SRC_DIR)/menu.c $(INCLUDE_DIR)/menu.h
++	$(CC) -I $(INCLUDE_DIR) -c $(SRC_DIR)/menu.c -o $(OUTPUT_DIR)/menu.o
++
++$(OUTPUT_DIR)/main.o : $(SRC_DIR)/main.c $(INCLUDE_DIR)/add.h $(INCLUDE_DIR)/sub.h $(INCLUDE_DIR)/mul.h $(INCLUDE_DIR)/div.h $(INCLUDE_DIR)/menu.h
++	$(CC) -c $(SRC_DIR)/main.c -o $(OUTPUT_DIR)/main.o
++
++clean:
++	rm -f $(OUTPUT_DIR)/*.o $(OUTPUT_DIR)/calculatorProjectTest.exe
+\ No newline at end of file
+diff --git a/calculator_project/output/.gitkeep b/calculator_project/output/.gitkeep
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/src/add.c b/calculator_project/src/add.c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/src/div.c b/calculator_project/src/div.c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/src/main.c b/calculator_project/src/main.c
+new file mode 100644
+index 0000000..15ffb4e
+--- /dev/null
++++ b/calculator_project/src/main.c
+@@ -0,0 +1,8 @@
++#include <stdio.h>
++#include <stdint.h>
++
++int main()
++{
++    printf("Welcome to the Calculator Project");
++    return 0;
++}
+\ No newline at end of file
+diff --git a/calculator_project/src/menu.c b/calculator_project/src/menu.c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/src/mul.c b/calculator_project/src/mul.c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/calculator_project/src/sub.c b/calculator_project/src/sub.c
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.34.1
+

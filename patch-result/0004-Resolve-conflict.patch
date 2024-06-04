@@ -1,0 +1,20 @@
+From 2dd06bf5a28a6faf6ad43d5e1dd6e925e194958c Mon Sep 17 00:00:00 2001
+From: Mayura <saimayurark@gmail.com>
+Date: Tue, 4 Jun 2024 12:54:06 +0530
+Subject: [PATCH 4/6] Resolve conflict
+
+---
+ rebase2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rebase2.txt b/rebase2.txt
+index 9a80a22..177324c 100644
+--- a/rebase2.txt
++++ b/rebase2.txt
+@@ -1,2 +1,3 @@
+ hello
+ 
++heyyy
+-- 
+2.34.1
+
