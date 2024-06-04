@@ -1,0 +1,21 @@
+From 4cd1486b05c68d4d1e5e0ffb5b7c38b9f8832457 Mon Sep 17 00:00:00 2001
+From: Ishika <bansalishika050304@gmail.com>
+Date: Tue, 4 Jun 2024 14:09:24 +0530
+Subject: [PATCH] commit stash2
+
+---
+ stash2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 stash2.txt
+
+diff --git a/stash2.txt b/stash2.txt
+new file mode 100644
+index 0000000..24627e5
+--- /dev/null
++++ b/stash2.txt
+@@ -0,0 +1 @@
++stash file to learn about stash command
+\ No newline at end of file
+-- 
+2.45.1.windows.1
+

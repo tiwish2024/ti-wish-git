@@ -1,0 +1,21 @@
+From c076cce02cf1234c54ce1fe06f4e0442d6eb0f13 Mon Sep 17 00:00:00 2001
+From: Ishika <bansalishika050304@gmail.com>
+Date: Tue, 4 Jun 2024 14:01:11 +0530
+Subject: [PATCH] commit the cherry-pick file to learn about cherry pick
+ command
+
+---
+ cherry-pick.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..9445c79
+--- /dev/null
++++ b/cherry-pick.txt
+@@ -0,0 +1 @@
++cherry pick is used to choose from the existing commits when we dont want all instead some selected commits to be there in the local
+-- 
+2.45.1.windows.1
+
