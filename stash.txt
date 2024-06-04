@@ -1,0 +1,2 @@
+git commit saves changes to the local repository.
+git stash temporarily saves changes that are not ready to be commit.
