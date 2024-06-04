@@ -19,16 +19,16 @@ int main()
         printCalculatorMenu();
         scanf("%d",&choice);
         if (choice ==1){
-            printf("Result is : %d",addition(num1,num2));
+            printf("Result is : %d \n",addition(num1,num2));
         }
         else if (choice ==2){
-            printf("Result is : %d",subtraction(num1,num2));
+            printf("Result is : %d \n",subtraction(num1,num2));
         }
         else if (choice ==3){
-            printf("Result is : %d",division(num1,num2));
+            printf("Result is : %d \n",division(num1,num2));
         }
         else if (choice ==4){
-            printf("Result is : %d",multiplication(num1,num2));
+            printf("Result is : %d \n",multiplication(num1,num2));
         }
         else{
             printf("Invalid choice\n");
