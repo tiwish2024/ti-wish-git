@@ -1,0 +1,3 @@
+1. A commit is a part of the public git history while a stash is stored locally.
+2. A commit creates a new save point on a branch while a stash reverts to a previous save point.
+3. A new commit leaves files in the working tree unchanged while a stash resets files in the working tree to the previous commit point.
