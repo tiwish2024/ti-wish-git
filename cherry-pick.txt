@@ -1,0 +1,1 @@
+Cherry-picking refers to applying changes from a specific commit in one branch to another branch.
