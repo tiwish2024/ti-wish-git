@@ -1,0 +1,1 @@
+Creates a permanent snapshot of the current state of your codebase and Temporarily shelves changes you've made to your working directory and index.
