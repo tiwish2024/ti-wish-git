@@ -1,2 +1,1 @@
-This is to rebase the branch
 This is to introduce conflicts
