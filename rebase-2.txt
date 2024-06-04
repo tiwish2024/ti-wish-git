@@ -1,1 +1,2 @@
 a+b=c
+this is to create a conflict
