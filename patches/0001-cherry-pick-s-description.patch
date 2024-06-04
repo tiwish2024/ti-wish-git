@@ -1,0 +1,20 @@
+From 00c36af21affd3740a9d43e4c779bbafcc5881f2 Mon Sep 17 00:00:00 2001
+From: komal agrawal <komalagrawal1810@gmail.com>
+Date: Tue, 4 Jun 2024 14:33:09 +0530
+Subject: [PATCH] cherry pick's description
+
+---
+ cherry-pick.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..8911156
+--- /dev/null
++++ b/cherry-pick.txt
+@@ -0,0 +1 @@
++cherry pick is used to undo changes and restoring lost commits
+-- 
+2.45.1.windows.1
+

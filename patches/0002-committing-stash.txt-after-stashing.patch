@@ -1,0 +1,16 @@
+From 23249f7eb8add76d3a1f061963d5b47b8c1d0693 Mon Sep 17 00:00:00 2001
+From: komal agrawal <komalagrawal1810@gmail.com>
+Date: Tue, 4 Jun 2024 14:18:33 +0530
+Subject: [PATCH 2/3] committing stash.txt after stashing
+
+---
+ stash.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.45.1.windows.1
+
