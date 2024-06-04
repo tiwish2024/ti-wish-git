@@ -1,2 +1,3 @@
 a+b=c
 This is to introduce conflicts
+this is to change the rebase Content
