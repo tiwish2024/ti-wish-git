@@ -1,0 +1,20 @@
+From 3a25c0cb51f2b06bcf628e2fac1aa56ddfd44ace Mon Sep 17 00:00:00 2001
+From: Aarchi <aarchi@Aarchi>
+Date: Tue, 4 Jun 2024 17:05:50 +0530
+Subject: [PATCH 2/2] committing cherry-pick.txt
+
+---
+ cherry-pick.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cherry-pick.txt
+
+diff --git a/cherry-pick.txt b/cherry-pick.txt
+new file mode 100644
+index 0000000..967d923
+--- /dev/null
++++ b/cherry-pick.txt
+@@ -0,0 +1 @@
++Cherry-picking refers to applying changes from a specific commit in one branch to another branch.
+-- 
+2.34.1
+
