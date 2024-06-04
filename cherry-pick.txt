@@ -1,0 +1,7 @@
+Git cherry-pick is used to choose one or more existing commit from one branch and apply it to another branch. 
+It is very useful when we do not want to merge the whole branch and only want some of the commits.
+
+Some of its uses are:
+1. Undoing changes and lost commits.
+2. To avoid useless conficts.
+  
