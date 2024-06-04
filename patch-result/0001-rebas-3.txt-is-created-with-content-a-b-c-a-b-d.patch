@@ -1,0 +1,23 @@
+From d51d2f56451895f152b5886fcc231b66c013f392 Mon Sep 17 00:00:00 2001
+From: Nishu <nishu085bteceai22@igdtuw.ac.in>
+Date: Tue, 4 Jun 2024 13:57:16 +0530
+Subject: [PATCH] rebas-3.txt is created with content a+b=c||a-b=d
+
+---
+ rebase-3.txt | Bin 0 -> 30 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 rebase-3.txt
+
+diff --git a/rebase-3.txt b/rebase-3.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..cc5374ce38e795ada4a543027fcffbfb8e1c9728
+GIT binary patch
+literal 30
+gcmezWFOfl;A&J43A(^2D2oo7}!Mqd(UIs1(0Dve4EC2ui
+
+literal 0
+HcmV?d00001
+
+-- 
+2.41.0.windows.1
+
